@@ -4,11 +4,23 @@ body{
 }
 
 h1{
-    color: red;
+    color: black;
     text-align:center;
 }
 
 img{
     max-width:50%;
     height:auto;
+}
+
+.assignment{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background: lightgrey;
+}
+
+.assignment img{
+    width:200px;
+    padding:10px;
 }
