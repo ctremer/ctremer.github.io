@@ -12,14 +12,23 @@ h1:hover{
 color:#DF3F1E;
 }
 
+h2{
+    text-align:center;
+}
+
 img{
     max-width:50%;
     height:auto;
 }
 
-.assignment{
+.assignments{
     display:flex;
-    padding:10px;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:22%;
+    padding:20px 10;
     margin:10px;
     background: lightgrey;
 }
@@ -28,6 +37,8 @@ img{
     width:200px;
     margin: 10px;
     border: 4px solid white;
+    display:block;
+    margin:auto;
 }
 
 .assignment img:hover{
