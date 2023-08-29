@@ -1,0 +1,38 @@
+/* Structure */
+
+body {
+    background-color: blueviolet;
+}
+
+
+/* Tables */
+td,
+th{
+    border: 1px solid red;
+}
+
+th{
+    background-color: maroon;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p{
+    color: greenyellow;
+}
+
+h1{
+    background-color: blue;
+    color: orange;
+}
+
+h2{
+    color: red;
+}
