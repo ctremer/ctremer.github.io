@@ -1,0 +1,35 @@
+/* Structure */
+body{
+    background-color: grey;
+}
+
+h1{
+    color: gray;
+}
+
+h2,
+p{
+    color: silver;
+}
+
+#content {
+    background:rgba(0, 0, 0, 0.9);
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/background.jpg);
+}
+
+/* Navigation */
+#main-nav a{
+    text-decoration: none;
+}
+
+#main-nav a{
+    color: green;
+}
