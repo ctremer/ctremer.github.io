@@ -36,6 +36,11 @@ html {
     flex: 1; 
 }
 
+#comment-container{
+    background: rgb(255, 235, 205);
+    border: solid 1px rgb(100, 149, 237);
+}
+
 .hide {
     display: none;
 }
