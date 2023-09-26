@@ -1,0 +1,151 @@
+/* Structure */
+#title{
+    text-align: center;
+    background: rgb(242, 173, 148);
+    margin: 0;
+    padding-top: 20px;
+}
+
+#exercise-1,
+#exercise-2{
+    background: rgb(253, 199, 185);
+    text-align: center;
+    width: 50%;
+}
+
+html,
+body{
+    margin: 0;
+}
+
+.thermometer {
+    width: 60px; 
+    height: 300px;
+    background: white;
+    margin: 20px auto;
+    position: relative; 
+}
+
+.fill {
+    width: 100%; 
+    height: 0;
+    background: red;
+    position: absolute;
+    bottom: 0; 
+}
+
+.flex-container p {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+#exercise-2 h2,
+#exercise-2 h3{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.current{
+border-bottom: 4px solid rgb(242, 75, 75);
+}
+
+label {
+    width: 100px; 
+    text-align: right; 
+    margin-right: 10px; 
+}
+
+.exercise {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px; 
+}
+
+.nav-container{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#compare-ages{
+    margin-left: 15px;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Navigation */
+.hide{
+    display: none;
+}
+
+#nav-items {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+#nav-items li{
+    color: rgb(242, 75, 75);
+    background: rgb(248, 248, 248);
+    display: flex;
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#list-1:hover,
+#list-2:hover{
+    background: rgb(220, 220, 200);
+}
+
+
+
+/* Larger Resolutions */
+@media only screen and (min-width: 768px){
+
+    .flex-container {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    #hamburger{
+        display: none;
+    }
+
+    #main-nav li{
+        display: inline-block;
+    }
+}
+
+/* Smaller Resolutions */
+
+@media only screen and (max-width: 768px){
+    #main-nav li{
+        display: block;
+    }
+
+    #hamburger{
+        display: inline-block;
+    }
+
+    #exercise-1,
+    #exercise-2{
+        width: 100%;
+        height: 100%;
+    }
+}

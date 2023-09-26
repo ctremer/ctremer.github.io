@@ -1,0 +1,107 @@
+/* Structure */
+
+/* Animation */
+#square{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    top: 100px;
+}
+
+.animation{
+    animation-name: anim-square;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes anim-square {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Structure */
+
+body{
+    background-color: azure;
+}
+
+#main-header{
+    background-color: bisque;
+}
+
+#main-content{
+    background-color: cadetblue;
+}
+
+#main-footer{
+    background-color: honeydew;
+}
+
+.padded-area{
+    padding: 5px;
+    margin: auto;
+}
+
+.info{
+    border:2px solid blueviolet;
+    background: lightblue;
+}
+
+.info header{
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+/* Main Navigation */
+#main-nav ul{
+    padding-left: 0px;
+}
+
+#main-nav li{
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+.hide{
+    display: none;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav a:hover{
+    border-bottom: 1px solid magenta;
+}
+
+/* Typography */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Larger Resolutions */
+
+@media only screen and (max-width: 768px){
+        #main-nav li{
+            display: inline-block;
+        }
+
+        .columns { display:flex;
+        }
+
+        .col1of2{
+            flex: 1;
+        }
+
+        #hamburger{
+            display: none;
+        }
+    }
