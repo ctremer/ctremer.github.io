@@ -1,0 +1,101 @@
+/* Structure */
+
+body{
+    background: #333333;
+    color: #333333;
+}
+
+#quotes,
+#rainbow{
+    background: #3399FF;
+    margin: 10px;
+    width: 40%;
+    height: 50vh;
+    margin-top: 90px;
+    border-radius: 7px;
+}
+
+#quotes p{
+    text-align: center;
+}
+
+.red{
+    background: red;
+}
+
+.orange{
+    background: orange;
+}
+
+.yellow{
+    background:yellow;
+}
+
+.green{
+    background: green;
+}
+
+.blue{
+    background: blue;
+}
+
+.purple{
+    background: purple;
+}
+
+.rainbow-color {
+    height: 20px; 
+    width: 0;
+    margin: 2px 0;
+    transition: width 1s ease-in;
+}
+
+#pot{
+    height: 12vh;
+    margin-left: 400px;
+    z-index: 1;
+}
+
+#rainbow p{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    color: #3399FF;
+    background: #333333;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Larger Resolutions */
+@media only screen and (min-width: 768px){
+
+    .flex-container {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/* Smaller Resolutions */
+@media only screen and (max-width: 768px){
+
+}
