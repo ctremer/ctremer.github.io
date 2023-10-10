@@ -69,12 +69,15 @@
 }
 
 #button-login{
-    margin-left: 680px;
     height: 40px;
     width: 150px;
     background: grey;
     color: white;
     font-size: 16px;
+}
+
+.button-container{
+    text-align: center;
 }
 
 .information{
@@ -153,7 +156,6 @@
 #button-apply{
     background: grey;
     color: white;
-    margin-left: 700px;
     height: 50px;
     width: 150px;
 }
