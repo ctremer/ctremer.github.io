@@ -1,0 +1,228 @@
+/* Structure */
+#welcome{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+#welcome-div h1{
+    text-align: center;
+}
+
+.col1of2{
+    width: 40%;
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}
+
+#menu-item{
+    margin: 40px;
+    text-align: left;
+}
+
+#menu-line{
+    width: 85%;
+    margin-left: 30px;
+}
+
+#drink-line{
+    width: 40%;
+}
+
+#drink{
+    text-align: center;
+    margin-right: 20px;
+    margin: 40px;
+}
+
+#order-item{
+    text-align: left;
+    margin: 50px;
+}
+
+#button-add,
+#button-add-drink{
+    margin-left: 50px;
+}
+
+#button-add,
+#button-subtract,
+#button-add-drink,
+#button-subtract-drink{
+    width: 25px;
+    height: 25px;
+}
+
+.col1of4{
+    width: 20%;
+    text-align: center;
+}
+
+.col1of3{
+    text-align: center;
+    width: 30%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#button-login{
+    height: 40px;
+    width: 150px;
+    background: grey;
+    color: white;
+    font-size: 16px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.information{
+    font-size: 24px;
+}
+
+#username,
+#password,
+#confirm-password{
+    height: 20px;
+    width: 200px;
+}
+
+.login{
+    font-size: 20px;
+    text-align: center;
+}
+
+.login label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.cc-info{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cc-info label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.upload-text{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 14px;
+}
+.apply{
+    font-size: 20px;
+    text-align: center;
+}
+
+.apply label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+#button-upload{
+    margin-left: 420px;
+    background:blue;
+    color: white;
+    height: 45px;
+    width: 150px;
+}
+#button-place-order{
+    height: 50px;
+    width: 150px;
+    background: grey;
+    color: white;
+    font-size: 20px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+#apply-thanks{
+    text-align: right;
+}
+
+#button-apply{
+    background: grey;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Main Navigation */
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav li{
+    padding: 20px;
+    font-size: 24px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#main-nav ul{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav:visited{
+    color: black;
+}
+
+/* Larger Resolutions */
+@media only screen and (min-width: 768px){
+    #main-nav li{
+        display: inline-block;
+    }
+
+    .flex-container {
+        justify-content: center;
+        display:flex;
+        width: 100%;
+    }
+
+}
+
+/* Smaller Resolutions */
+@media only screen and (max-width: 768px){
+
+    #main-nav li{
+        display: block;
+    }
+
+    .col1of3{
+        display: block;
+        width: 100%;
+    }
+
+    .col1of2{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #button-login{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}

@@ -23,6 +23,8 @@ p{
 
 #main-content {
     background: black;
+    text-align: center; 
+    width: 55%; 
 }
 
 #assignments {
