@@ -1,0 +1,56 @@
+<!--CSCE242 Web Applications Collin Remer-->
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head><link rel = "stylesheet" href = "styles.css"></head>
+    <header>
+        <nav id = "main-nav">
+            <div class = "flex-container">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "menu.html">Menu</a></li>
+                <li><a href = "order.html">Order</a></li>
+                <li><a href = "checkout.html">Checkout</a></li>
+                <li><a href = "apply.html">Apply</a></li>
+                <li><a href = "contact-us.html"><strong>Contact Us</strong></a></li>
+                <li><a href = "login.html">Login</a></li>
+            </ul>
+        </div>
+        <hr>
+        </nav>
+    </header>
+    <body>
+        <div class = "flex-container">
+        <div class = "col1of2">
+            <iframe id = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26463.930095644362!2d-81.02499478505862!3d33.992758201931316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb282cb2a61b%3A0x78bd73542178f54e!2sUniversity%20of%20South%20Carolina!5e0!3m2!1sen!2sus!4v1698108643324!5m2!1sen!2sus" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p id = "center" class = "information">Email</p>
+        <p id = "center"><strong>thebestburgers@gmail.com</strong></p>
+        <p id = "center" class = "information">Phone Number</p>
+        <p id = "center"><strong>1-800-THEBEST</strong></p>
+        <p id = "center" class = "information">Our Location</p>
+        <p id = "center"><strong>123 Thebest Dr, Burgerland, SC, 12345</strong></p>
+        </div>
+        <div class = "col1of2">
+            <h2>Contact Me</h2>
+            <form id = "form-contact" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="4a276df5-e860-4988-8983-ccb5bd480170">
+                <label for = "name">Name: </label>
+                <input type="text" name="name" required>
+                <label for = "email">E-mail:</label>
+                <input type="email" name="email" required>
+                <label for = "message">Message:</label>
+                <input type = "text" name = "message" id = "contact-message"><br><br>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button type="submit" id = "button-submit">Submit Form</button>
+                <p id = "result"></p>
+            </form>
+
+            <a href = "reviews.html" id = "sign-up">Leave a review here!</a>
+        </div>
+    </div>
+    <script src = "contactme.js"></script>
+    </body>
+
+    <footer></footer>
+</html>
