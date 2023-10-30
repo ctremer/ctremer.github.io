@@ -54,8 +54,7 @@
     "drinkItem": {
       "name": "Soft drink or lemonade",
       "image": "lemonade.jpg",
-      "price": "$2.99",
-      "info": "All drinks come with unlimited refills."
+      "price": "$2.99"
     }
   }
   
