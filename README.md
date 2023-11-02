@@ -1,1 +1,1 @@
-# ctremer.github.io
+All of my classwork for CSCE242
