@@ -1,0 +1,37 @@
+<!--CSCE242 Web Applications Collin Remer-->
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head><link rel = "stylesheet" href = "styles.css"></head>
+    <header>
+        <nav id = "main-nav">
+            <div class = "flex-container">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "menu.html">Menu</a></li>
+                <li><a href = "order.html">Order</a></li>
+                <li><a href = "checkout.html">Checkout</a></li>
+                <li><a href = "apply.html">Apply</a></li>
+                <li><a href = "contact-us.html">Contact Us</a></li>
+                <li><a href = "login.html">Login</a></li>
+            </ul>
+        </div>
+        <hr>
+        </nav>
+    </header>
+    <body>
+        <h1 id = "center">Leave a review</h1><br><br>
+        <div class = "flex-container">
+        <p>
+        <form id = "form-review">
+            <label for = "name">Name: </label>
+            <input type = "text" name = "name" required>
+            <label for = "review">Review: </label>
+            <input type = "text" name = "review" required><br><br>
+            <button type = "submit" id = "button-submit">Leave review</button><br><br><br><br>
+            <p id="successMessage" class = "hidden"></p>
+        </form>
+    </p>
+    </div>
+    <script src = "review.js"></script>
+    </body>

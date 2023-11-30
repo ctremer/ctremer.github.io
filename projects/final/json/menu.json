@@ -1,0 +1,60 @@
+{
+    "menuItems": [
+      {
+        "name": "Classic Cheeseburger",
+        "image": "classic-cheeseburger.jpg",
+        "price": "$9.99"
+      },
+      {
+        "name": "Pimento Cheeseburger",
+        "image": "pimento-cheeseburger.jpg",
+        "price": "$11.99"
+      },
+      {
+        "name": "Swiss Mushroom Burger",
+        "image": "swiss-mushroom-burger.jpg",
+        "price": "$10.99"
+      },
+      {
+        "name": "Ghost Pepper Cheeseburger",
+        "image": "ghost-pepper-cheeseburger.jpg",
+        "price": "$13.49"
+      },
+      {
+        "name": "Bacon Jalapeño Cheeseburger",
+        "image": "bacon-jalapeno-cheeseburger.jpg",
+        "price": "$11.99"
+      },
+      {
+        "name": "Veggie Burger",
+        "image": "veggie-burger.jpg",
+        "price": "$10.49"
+      },
+      {
+        "name": "Bean Burger",
+        "image": "bean-burger.jpg",
+        "price": "$9.99"
+      },
+      {
+        "name": "Salmon Burger",
+        "image": "salmon-burger.jpg",
+        "price": "$14.99"
+      },
+      {
+        "name": "The Best Burger",
+        "image": "the-best-burger.jpg",
+        "price": "$12.99"
+      },
+      {
+        "name": "The Mystery Burger",
+        "image": "mystery-burger.jpg",
+        "price": "$8.99"
+      }
+    ],
+    "drinkItem": {
+      "name": "Soft drink or lemonade",
+      "image": "lemonade.jpg",
+      "price": "$2.99"
+    }
+  }
+  
