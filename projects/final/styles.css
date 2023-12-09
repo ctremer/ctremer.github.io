@@ -99,8 +99,8 @@ form textarea{
 
 #menu-image{
     padding: 20px;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 #drink-line{
@@ -123,8 +123,8 @@ form textarea{
 
 #order-image{
     padding: 20px;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 #button-add,
@@ -193,6 +193,11 @@ form textarea{
 
 .cc-info{
     font-size: 20px;
+    text-align: center;
+}
+
+#order-burgers,
+#order-drinks{
     text-align: center;
 }
 
@@ -328,6 +333,49 @@ body{
     padding: 0;
 }
 
+.review {
+    background-color: lightblue;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: black;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10em;
+}
+
+.review-name {
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}
+
+.review-rating {
+    font-weight: bold;
+}
+
+.review-content {
+    margin-top: 20px;
+}
+
+.edit-link {
+    text-align: right;
+    cursor: pointer;
+    margin-right: auto;
+    color: grey;
+}
+
+.delete-link {
+    text-align: right;
+    cursor: pointer;
+    margin-right: auto;
+    color: maroon;
+}
+
+
 /* Larger Resolutions */
 @media only screen and (min-width: 768px){
     #main-nav li{
@@ -343,7 +391,11 @@ body{
 }
 
 /* Smaller Resolutions */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
     #main-nav li {
         display: block;
@@ -358,6 +410,8 @@ body{
     .flex-container {
         justify-content: center;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
 
@@ -372,7 +426,38 @@ body{
         margin-top: 10px;
     }
 
-    #map{
+    #map {
         display: flex;
+    }
+
+    #welcome {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .col1of2 {
+        width: 80%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #logo {
+        height: auto;
+        max-width: 100%;
+    }
+
+    #index-desc {
+        font-size: 20px;
+    }
+
+    #button-check-out {
+        height: 50px;
+        width: 150px;
+        background: var(--button-color);
+        color: var(--text-color);
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
